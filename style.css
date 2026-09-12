@@ -70,9 +70,9 @@ li {
   justify-content: center
 }
 
-#about
-#discord
-#contact
+#about,
+#discord,
+#contact,
 footer{
   padding: 48px 0;
 }
@@ -180,6 +180,11 @@ footer {
   .row {
     flex-direction: column;
   }
+
+ .logo {
+  width: 200px;
+  max-height: 70px;
+}
 
   header {
   height: auto;
